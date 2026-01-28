@@ -1,0 +1,17 @@
+# Modbus RTU 数据转换工具 - 依赖列表
+
+# 串口通信
+pyserial>=3.5
+
+# 打包工具
+pyinstaller>=5.0
+
+# 测试工具
+pytest>=7.0
+pytest-cov>=4.0
+
+# 可选：数据可视化
+# matplotlib>=3.5
+
+# 可选：Excel 导出
+# openpyxl>=3.0
