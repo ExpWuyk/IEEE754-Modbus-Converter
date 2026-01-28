@@ -85,3 +85,6 @@ config/
 
 # Claude 配置
 .claude/
+
+# Git worktrees
+.worktrees/
