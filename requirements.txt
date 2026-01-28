@@ -15,3 +15,6 @@ pytest-cov>=4.0
 
 # 可选：Excel 导出
 # openpyxl>=3.0
+
+# GUI 框架
+customtkinter>=5.2.0
