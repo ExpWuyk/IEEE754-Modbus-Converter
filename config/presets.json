@@ -1,0 +1,32 @@
+{
+  "siemens": {
+    "name": "西门子",
+    "byte_order": 2,
+    "data_type": "float32",
+    "description": "西门子S7系列PLC"
+  },
+  "schneider": {
+    "name": "施耐德",
+    "byte_order": 2,
+    "data_type": "float32",
+    "description": "施耐德Modicon系列"
+  },
+  "mitsubishi": {
+    "name": "三菱",
+    "byte_order": 3,
+    "data_type": "float32",
+    "description": "三菱FX/Q系列"
+  },
+  "omron": {
+    "name": "欧姆龙",
+    "byte_order": 3,
+    "data_type": "float32",
+    "description": "欧姆龙CP/CJ系列"
+  },
+  "abb": {
+    "name": "ABB",
+    "byte_order": 2,
+    "data_type": "float32",
+    "description": "ABB变频器"
+  }
+}
