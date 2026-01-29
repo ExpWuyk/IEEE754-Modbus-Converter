@@ -153,19 +153,23 @@ class ConvertPage(ctk.CTkFrame):
         value_card = CardFrame(result_container, title="转换结果")
         value_card.grid(row=0, column=1, sticky="nsew", padx=(5, 0))
 
+        # 结果行（数值和单位在同一行）
+        result_row = ctk.CTkFrame(value_card.content_frame, fg_color="transparent")
+        result_row.pack(pady=20)
+
         self.result_value = ctk.CTkLabel(
-            value_card.content_frame,
+            result_row,
             text="等待转换...",
             font=ctk.CTkFont(size=28, weight="bold"),
             text_color=COLORS["text"]
         )
-        self.result_value.pack(pady=20)
+        self.result_value.pack(side="left")
 
         self.result_unit = ctk.CTkLabel(
-            value_card.content_frame, text="",
-            font=ctk.CTkFont(size=14), text_color=COLORS["text_secondary"]
+            result_row, text="",
+            font=ctk.CTkFont(size=18), text_color=COLORS["text_secondary"]
         )
-        self.result_unit.pack()
+        self.result_unit.pack(side="left", padx=(10, 0))
 
         ctk.CTkButton(
             value_card.content_frame, text="复制结果", width=100,
