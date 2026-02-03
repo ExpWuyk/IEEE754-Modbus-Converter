@@ -1,0 +1,47 @@
+# ==================== Python ====================
+# 字节码
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.manifest
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ==================== IDE/编辑器 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== 项目特定 ====================
+# 运行时生成
+logs/
+*.log
+
+# 本地配置（保留模板）
+config/settings.json
+config/history.json
+
+# Claude Code
+.claude/
+.worktrees/
